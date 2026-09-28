@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/heritage/contracts/ask-response.schema.json",
+  "title": "POST /v1/ask response",
+  "description": "Every answer is either cited from permitted, retrieved passages, or an explicit abstention. Citations are assembled by the server from catalogue metadata, never from model text.",
+  "type": "object",
+  "required": ["status", "answer", "citations"],
+  "additionalProperties": false,
+  "properties": {
+    "status": {"enum": ["answered", "not_verified", "unavailable", "rejected"]},
+    "answer": {"type": "string", "maxLength": 4000},
+    "answer_kind": {"enum": ["AI_GENERATED_SUMMARY", "AI_TRANSLATION", "EXTRACTIVE_QUOTE"]},
+    "translation_label": {"type": ["string", "null"]},
+    "reason": {"type": "string", "description": "Machine-readable reason for non-answers (logged as a count; never contains query text)."},
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item_id", "excerpt_id", "viewer_url"],
+        "additionalProperties": false,
+        "properties": {
+          "item_id": {"type": "string", "pattern": "^[A-Z]{2,5}-[0-9A-Z-]+$"},
+          "title": {"type": "string"},
+          "edition": {"type": "string"},
+          "excerpt_id": {"type": "string"},
+          "pdf_page_index": {"type": ["integer", "null"], "minimum": 0},
+          "printed_page": {"type": ["string", "null"]},
+          "start_ms": {"type": ["integer", "null"], "minimum": 0},
+          "viewer_url": {"type": "string", "pattern": "^/v1/items/"}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "answered"}}},
+     "then": {"required": ["answer_kind"], "properties": {"citations": {"minItems": 1}}}},
+    {"if": {"properties": {"status": {"not": {"const": "answered"}}}},
+     "then": {"properties": {"citations": {"maxItems": 0}}}}
+  ]
+}

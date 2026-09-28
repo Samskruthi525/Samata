@@ -1,0 +1,23 @@
+{
+  "id": "DEMO-ITEM-001",
+  "kind": "constitutional",
+  "title": "Demonstration debate excerpt — replace with verified title",
+  "speaker": "curator-verified speaker",
+  "date_label": "YYYY-MM-DD (verify)",
+  "source_uri": "https://example.invalid/replace-with-source",
+  "edition_label": "verify edition",
+  "volume_label": "verify volume",
+  "language_code": "en",
+  "rights": {
+    "status": "permission_pending",
+    "public_display": false,
+    "ai_processing_allowed": false
+  },
+  "assets": [
+    {"role": "master", "uri": "private://replace", "sha256": "compute-on-ingest"},
+    {"role": "access", "uri": "private://until-approved"}
+  ],
+  "pages": [
+    {"pdf_page_index": 12, "printed_page_label": "verify", "reviewed": false}
+  ]
+}

@@ -1,0 +1,262 @@
+{
+ "benchmark_version": "demo-2026-09-28",
+ "summary": {
+  "answerable_n": 8,
+  "hit@5": 0.875,
+  "mrr": 0.667,
+  "answered_with_labelled_citation": 4,
+  "false_abstentions": 1,
+  "other_passage_same_item": 3,
+  "wrong_item": 0,
+  "negative_n": 13,
+  "correct_abstentions": 13,
+  "unsupported_answers": 0
+ },
+ "rows": [
+  {
+   "id": "Q-001",
+   "bucket": "answerable",
+   "text": "What did Ambedkar say about constitutional morality?",
+   "status": "answered",
+   "cited": [
+    "CR001-P-b"
+   ],
+   "rank": 1,
+   "rr": 1.0,
+   "outcome": "correct",
+   "reason": ""
+  },
+  {
+   "id": "Q-002",
+   "bucket": "answerable",
+   "text": "What is Annihilation of Caste about?",
+   "status": "answered",
+   "cited": [
+    "WS001-P-d"
+   ],
+   "rank": 3,
+   "rr": 0.3333333333333333,
+   "outcome": "other_passage_same_item",
+   "reason": ""
+  },
+  {
+   "id": "Q-003",
+   "bucket": "answerable",
+   "text": "When was the Constitution of India adopted?",
+   "status": "answered",
+   "cited": [
+    "CR001-P-a"
+   ],
+   "rank": 2,
+   "rr": 0.5,
+   "outcome": "other_passage_same_item",
+   "reason": ""
+  },
+  {
+   "id": "Q-004",
+   "bucket": "answerable",
+   "text": "Tell me about the Poona Pact.",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "false_abstention",
+   "reason": "no supporting passage in permitted set"
+  },
+  {
+   "id": "Q-005",
+   "bucket": "answerable",
+   "text": "What happened at Nagpur in October 1956?",
+   "status": "answered",
+   "cited": [
+    "AV-001-T00"
+   ],
+   "rank": 1,
+   "rr": 1.0,
+   "outcome": "correct",
+   "reason": ""
+  },
+  {
+   "id": "Q-006",
+   "bucket": "answerable",
+   "text": "Why is 26 January celebrated as Republic Day?",
+   "status": "answered",
+   "cited": [
+    "CR001-P-e"
+   ],
+   "rank": 1,
+   "rr": 1.0,
+   "outcome": "correct",
+   "reason": ""
+  },
+  {
+   "id": "Q-007",
+   "bucket": "answerable",
+   "text": "What was Mooknayak?",
+   "status": "answered",
+   "cited": [
+    "WS002-P-b"
+   ],
+   "rank": 2,
+   "rr": 0.5,
+   "outcome": "other_passage_same_item",
+   "reason": ""
+  },
+  {
+   "id": "Q-008",
+   "bucket": "answerable",
+   "text": "Who was the chairman of the Drafting Committee?",
+   "status": "answered",
+   "cited": [
+    "CR003-P-a"
+   ],
+   "rank": 1,
+   "rr": 1.0,
+   "outcome": "correct",
+   "reason": ""
+  },
+  {
+   "id": "Q-009",
+   "bucket": "unanswerable",
+   "text": "What was Dr. Ambedkar's favourite colour?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.00)"
+  },
+  {
+   "id": "Q-010",
+   "bucket": "unanswerable",
+   "text": "What did Ambedkar think about the 1962 India-China war?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.20)"
+  },
+  {
+   "id": "Q-011",
+   "bucket": "unanswerable",
+   "text": "Which cricket team did Ambedkar support?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.25)"
+  },
+  {
+   "id": "Q-012",
+   "bucket": "unanswerable",
+   "text": "What is the weather in Nagpur today?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.33)"
+  },
+  {
+   "id": "Q-013",
+   "bucket": "unanswerable",
+   "text": "Who won the 2024 general election?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "no supporting passage in permitted set"
+  },
+  {
+   "id": "Q-014",
+   "bucket": "unanswerable",
+   "text": "What was Ambedkar's shoe size?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.00)"
+  },
+  {
+   "id": "Q-015",
+   "bucket": "unanswerable",
+   "text": "Summarise Ambedkar's 1965 speech in Delhi.",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.25)"
+  },
+  {
+   "id": "Q-016",
+   "bucket": "unanswerable",
+   "text": "What did Ambedkar post on social media about democracy?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.25)"
+  },
+  {
+   "id": "Q-017",
+   "bucket": "unanswerable",
+   "text": "What is the recipe for puran poli?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "no supporting passage in permitted set"
+  },
+  {
+   "id": "Q-018",
+   "bucket": "unanswerable",
+   "text": "Give me Ambedkar's home telephone number.",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.00)"
+  },
+  {
+   "id": "Q-019",
+   "bucket": "misattribution",
+   "text": "Quote where Ambedkar said: be the change you wish to see in the world.",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.14)"
+  },
+  {
+   "id": "Q-020",
+   "bucket": "misattribution",
+   "text": "Where did Ambedkar say government of the people, by the people, for the people?",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.33)"
+  },
+  {
+   "id": "Q-021",
+   "bucket": "misattribution",
+   "text": "Show the page where Ambedkar wrote that caste is a natural division of labour.",
+   "status": "not_verified",
+   "cited": [],
+   "rank": null,
+   "rr": 0.0,
+   "outcome": "correct_abstention",
+   "reason": "insufficient evidence coverage (0.43)"
+  }
+ ]
+}

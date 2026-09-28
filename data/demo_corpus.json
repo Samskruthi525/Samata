@@ -1,0 +1,1668 @@
+{
+ "_note": "Extracted from prototype/ambedkar_kiosk.html by scripts/export_demo_corpus.js. DEMO CORPUS: placeholder transcriptions and sample records for the prototype build; not a verified archive. Replace with curator-verified material before public use.",
+ "items": [
+  {
+   "id": "WS-001",
+   "kind": "writing",
+   "title": "Annihilation of Caste",
+   "titleDev": "जाति का विनाश",
+   "creator": "Dr. B. R. Ambedkar",
+   "role": "AUTHOR",
+   "year": 1936,
+   "dateLabel": "1936 · Lahore address, self-published, Bombay",
+   "language": "English",
+   "edition": "1936 author’s edition",
+   "volume": "—",
+   "sourceName": "Dr. Ambedkar Foundation — Collected Works catalogue",
+   "sourceRef": "SR-01",
+   "rights": "public_display_approved",
+   "cached": true,
+   "desc": "The presidential address written for the 1936 Jat-Pat-Todak Mandal conference, Lahore — withdrawn after the organisers objected, and published by the author with their correspondence.",
+   "tags": [
+    "caste",
+    "speech",
+    "jat-pat-todak",
+    "lahore",
+    "society",
+    "1936"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN"
+   ],
+   "pages": [
+    {
+     "printed": "i",
+     "pdf": 0,
+     "label": "Title & forematter",
+     "ocrErr": 2,
+     "passages": [
+      {
+       "id": "WS001-P-a",
+       "text": "ANNIHILATION OF CASTE — being the presidential address which was to have been delivered at the annual conference of the Jat-Pat-Todak Mandal of Lahore, but which was cancelled by the reception committee; printed together with the correspondence in the matter, as prepared for the press by the author, B. R. Ambedkar, M.A., Ph.D. (Columbia), D.Sc. (London), Bar-at-Law.",
+       "note": "Sample reviewed transcription — placeholder for the prototype build."
+      }
+     ],
+     "ocr": "ANNIHILATION OF CASTE - being the presidental adress which was to have been deliverd at the anual conference of the Jat-Pat-Todak Mandal of Lahore, but which was cancelled by the reception comittee; printed togther with the corespondence in the matter, as prepared for the press by the author, B. R. Ambedkar, M.A., Ph.D. (Columbia), D.Sc. (London), Bar-at-Law."
+    },
+    {
+     "printed": "12",
+     "pdf": 5,
+     "label": "On caste as a division of labourers",
+     "ocrErr": 1,
+     "passages": [
+      {
+       "id": "WS001-P-b",
+       "cite": true,
+       "text": "Caste is not just a division of labour, it is a division of labourers. Civilised society undoubtedly needs division of labour — but in no civilised society is division of labour accompanied by this unnatural division of labourers into watertight compartments.",
+       "note": "Widely reproduced formulation — wording to be verified against the printed edition before production use."
+      },
+      {
+       "id": "WS001-P-c",
+       "text": "The address goes on to examine how caste poisons every relation of life — education, employment, marriage — and why social reform must precede, not follow, political reform.",
+       "note": "Editorial summary paragraph, curator-reviewed for the demo corpus."
+      }
+     ],
+     "ocr": "Caste is not just a divison of labour, it is a division of labourers. Civilised society undoubtedly needs division of labour - but in no civilised society is division of labour acompanied by this unnatural division of labourers into watertight compart ments."
+    },
+    {
+     "printed": "68",
+     "pdf": 30,
+     "label": "On remedies",
+     "ocrErr": 3,
+     "passages": [
+      {
+       "id": "WS001-P-d",
+       "text": "The concluding section weighs the remedies proposed for dissolving caste — inter-dining, inter-marriage, and the destruction of the religious sanction behind caste — and argues that political and economic change alone cannot dissolve it.",
+       "note": "Paraphrase-safe summary; exact quotation pending curator verification against the printed edition."
+      }
+     ],
+     "ocr": "The concluding seciton weighs the remedies proposed for disolving caste - inter-dining, inter-marraige, and the destruciton of the religious sanction behind caste - and argues that political and economic change alone cannot dissolve it."
+    }
+   ]
+  },
+  {
+   "id": "WS-002",
+   "kind": "writing",
+   "title": "Mooknayak, Issue No. 1",
+   "titleDev": "मूकनायक, पहिला अंक",
+   "creator": "Dr. B. R. Ambedkar (editor)",
+   "role": "EDITOR",
+   "year": 1920,
+   "dateLabel": "31 January 1920 · Bombay",
+   "language": "Marathi",
+   "edition": "Weekly, first issue",
+   "volume": "—",
+   "sourceName": "Dr. Ambedkar Foundation — periodicals listing",
+   "sourceRef": "SR-02",
+   "rights": "public_display_approved",
+   "cached": false,
+   "desc": "The first issue of the Marathi weekly that gave “the mute” their hero — launched with the support of Chhatrapati Shahu Maharaj of Kolhapur.",
+   "tags": [
+    "mooknayak",
+    "newspaper",
+    "marathi",
+    "bombay",
+    "1920",
+    "press"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN",
+    "TRANSLATION PENDING"
+   ],
+   "pages": [
+    {
+     "printed": "1",
+     "pdf": 0,
+     "label": "Masthead",
+     "ocrErr": 2,
+     "passages": [
+      {
+       "id": "WS002-P-a",
+       "text": "मूकनायक — बहिष्कृत हितकारिणी सभेचे मुखपत्र. पहिला अंक, मुंबई, ३१ जानेवारी १९२०. संपादक: डॉ. भीमराव आंबेडकर.",
+       "note": "Reviewed Marathi transcription (sample). English translation pending review — the original remains one tap away."
+      },
+      {
+       "id": "WS002-P-b",
+       "text": "Mooknayak (“The Hero of the Mute”) — organ of the Bahishkrit Hitakarini Sabha. First issue, Bombay, 31 January 1920. Editor: Dr. B. R. Ambedkar.",
+       "note": "Curator-approved English summary of the masthead, for search access only."
+      }
+     ],
+     "ocr": "मुकनायक - बहिष्क्रुत हितकारिणी सभेचे मुखपत्र. पहिला अंक, मुंबई, ३१ जानेवारी १९२०. संपादक: डॉ. भीमराव आंबेडकर."
+    },
+    {
+     "printed": "2",
+     "pdf": 1,
+     "label": "Editorial column",
+     "ocrErr": 3,
+     "passages": [
+      {
+       "id": "WS002-P-c",
+       "text": "[संपादकीय — नमुना] पहिल्या अंकाच्या संपादकीयात समाजाच्या दुःखाची कारणे चिकित्सकपणे विचारात घेतली आहेत. पूर्ण मराठी प्रतिलेख आणि अनुवाद क्युरेटर-समीक्षेनंतर जोडला जाईल.",
+       "note": "Sample column — full Marathi transcription and translation pending curator review."
+      }
+     ],
+     "ocr": "[संपादकीय - नमुना] पहिल्या अंकाच्या संपादकीयात समाजाच्या दुःखाची कारणे चिकित्सकपणे विचारात घेतली आहेत. पूर्ण मराठी प्रतिलेख आणि अनुवाद क्युरेटर-समीक्षेनंतर जोडला जाईल."
+    }
+   ]
+  },
+  {
+   "id": "WS-003",
+   "kind": "writing",
+   "title": "States and Minorities",
+   "titleDev": "राज्ये आणि अल्पसंख्यक",
+   "creator": "Dr. B. R. Ambedkar",
+   "role": "AUTHOR",
+   "year": 1947,
+   "dateLabel": "March 1947 · submitted to the Constituent Assembly",
+   "language": "English",
+   "edition": "Memorandum on behalf of the All-India Scheduled Castes Federation",
+   "volume": "—",
+   "sourceName": "Dr. Ambedkar Foundation — Collected Works catalogue",
+   "sourceRef": "SR-03",
+   "rights": "public_display_approved",
+   "cached": false,
+   "desc": "A memorandum proposing fundamental rights and safeguards for the Scheduled Castes — submitted while the Assembly was drafting the Constitution.",
+   "tags": [
+    "minorities",
+    "safeguards",
+    "fundamental rights",
+    "1947",
+    "memorandum"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN"
+   ],
+   "pages": [
+    {
+     "printed": "i",
+     "pdf": 0,
+     "label": "Title page",
+     "ocrErr": 1,
+     "passages": [
+      {
+       "id": "WS003-P-a",
+       "text": "STATES AND MINORITIES — Memorandum on the safeguards for the Scheduled Castes, submitted to the Constituent Assembly of India on behalf of the All-India Scheduled Castes Federation, March 1947.",
+       "note": "Sample reviewed transcription — placeholder for the prototype build."
+      }
+     ],
+     "ocr": "STATES AND MINORITIES - Memorandom on the safeguards for the Scheduled Castes, submited to the Constituent Assembly of India on behalf of the All-India Scheduled Castes Fedaration, March 1947."
+    },
+    {
+     "printed": "9",
+     "pdf": 4,
+     "label": "Proposed safeguards",
+     "ocrErr": 2,
+     "passages": [
+      {
+       "id": "WS003-P-b",
+       "text": "The memorandum argues that political safeguards alone are insufficient without fundamental rights enforceable in courts, and sketches remedies — from representation to land reform — for those excluded from social and economic life.",
+       "note": "Paraphrase-safe summary; exact quotation pending curator verification."
+      }
+     ],
+     "ocr": "The memorandum argues that political safeguards alone are insufficent without fundemental rights enforceable in courts, and sketches remidies - from representation to land reform - for those excluded from social and economic life."
+    }
+   ]
+  },
+  {
+   "id": "CR-001",
+   "kind": "constitutional",
+   "title": "Constituent Assembly Debates — 26 November 1949",
+   "titleDev": "संविधान सभा विवाद — २६ नवंबर १९४९",
+   "creator": "Constituent Assembly of India",
+   "speaker": "Dr. B. R. Ambedkar",
+   "role": "SPEAKER",
+   "year": 1949,
+   "dateLabel": "26 November 1949 · Constitution Hall, New Delhi",
+   "language": "English",
+   "edition": "Official Report, Lok Sabha Secretariat",
+   "volume": "Vol. XI",
+   "sourceName": "Parliament Digital Library — Constituent Assembly Debates",
+   "sourceRef": "SR-04",
+   "rights": "public_display_approved",
+   "cached": true,
+   "desc": "The closing day of the Drafting Committee’s work: the Assembly adopts the Constitution, and its Chairman delivers the speech every civics textbook quotes.",
+   "tags": [
+    "constituent assembly",
+    "adoption",
+    "26 november 1949",
+    "speech",
+    "constitution",
+    "morality"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN"
+   ],
+   "pages": [
+    {
+     "printed": "972",
+     "pdf": 0,
+     "label": "Session record",
+     "ocrErr": 1,
+     "passages": [
+      {
+       "id": "CR001-P-a",
+       "text": "The Constituent Assembly met in the Constitution Hall, New Delhi, on Saturday, 26 November 1949, and proceeded to consider and adopt the Constitution of India — the culmination of two years, eleven months and eighteen days of drafting.",
+       "note": "Session context, curator-reviewed for the demo corpus."
+      }
+     ],
+     "ocr": "The Constituent Assembly met in the Constition Hall, New Delhi, on Saturday, 26 November 1949, and proceeded to consider and adopt the Constitution of India - the culmination of two years, eleven months and eighteen days of drafting."
+    },
+    {
+     "printed": "978",
+     "pdf": 6,
+     "label": "The closing speech",
+     "ocrErr": 1,
+     "passages": [
+      {
+       "id": "CR001-P-b",
+       "cite": true,
+       "text": "Constitutional morality is not a natural sentiment. It has to be cultivated. We must realise that our people have yet to learn it. Democracy in India is only a top-dressing on an Indian soil which is essentially undemocratic.",
+       "note": "Widely reproduced excerpt — wording to be verified against the printed Lok Sabha Secretariat edition before production use."
+      },
+      {
+       "id": "CR001-P-c",
+       "cite": true,
+       "text": "However good a Constitution may be, if those who are implementing it are not good, it will prove to be bad. However bad a Constitution may be, if those implementing it are good, it will prove to be good.",
+       "note": "Widely reproduced excerpt — wording to be verified against the printed edition before production use."
+      },
+      {
+       "id": "CR001-P-d",
+       "text": "The speech closes with the warning that on 26 January 1950 India would enter “a life of contradictions” — political equality sitting atop social and economic inequality — and that the sooner this contradiction is removed, the better for the country.",
+       "note": "Contextual summary, curator-reviewed for the demo corpus."
+      }
+     ],
+     "ocr": "Constitutional morality is not a natural sentimant. It has to be cultivated. We must realise that our people have yet to learn it. Democracy in India is only a top-dressing on an Indian soil which is essentially undemocratic."
+    },
+    {
+     "printed": "980",
+     "pdf": 8,
+     "label": "Adoption of the motion",
+     "ocrErr": 2,
+     "passages": [
+      {
+       "id": "CR001-P-e",
+       "text": "The motion that the Constitution, as settled by the Assembly, be passed was put and adopted. The date of commencement was fixed by separate resolution: 26 January 1950 — the twentieth anniversary of Purna Swaraj Day.",
+       "note": "Record summary, curator-reviewed for the demo corpus."
+      }
+     ],
+     "ocr": "The motion that the Constitution, as settled by the Assembly, be passed was put and adopted. The date of commencemant was fixed by seperate resolution: 26 January 1950 - the twentiith anniversary of Purna Swaraj Day."
+    }
+   ]
+  },
+  {
+   "id": "CR-002",
+   "kind": "constitutional",
+   "title": "Constituent Assembly Debates — 4 November 1948",
+   "titleDev": "संविधान सभा विवाद — ४ नवंबर १९४८",
+   "creator": "Constituent Assembly of India",
+   "speaker": "Dr. B. R. Ambedkar",
+   "role": "SPEAKER",
+   "year": 1948,
+   "dateLabel": "4 November 1948 · Constitution Hall, New Delhi",
+   "language": "English",
+   "edition": "Official Report, Lok Sabha Secretariat",
+   "volume": "Vol. VII",
+   "sourceName": "Parliament Digital Library — Constituent Assembly Debates",
+   "sourceRef": "SR-05",
+   "rights": "public_display_approved",
+   "cached": false,
+   "desc": "Dr. Ambedkar moves the consideration of the Draft Constitution and answers the charge that it was “borrowed” — a document plagiarised from foreign constitutions.",
+   "tags": [
+    "draft constitution",
+    "4 november 1948",
+    "motion",
+    "plagiarism",
+    "borrowed"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN"
+   ],
+   "pages": [
+    {
+     "printed": "38",
+     "pdf": 0,
+     "label": "Motion of consideration",
+     "ocrErr": 1,
+     "passages": [
+      {
+       "id": "CR002-P-a",
+       "text": "Dr. B. R. Ambedkar rose to move that the Draft Constitution as settled by the Drafting Committee be taken into consideration, presenting the Committee’s work to the House after the withdrawal of the first Draft by Sir B. N. Rau’s earlier framework.",
+       "note": "Session context, curator-reviewed for the demo corpus."
+      }
+     ],
+     "ocr": "Dr. B. R. Ambedkar rose to move that the Draft Constitution as settled by the Drafting Commitee be taken into consideration, presenting the Committe’s work to the House."
+    },
+    {
+     "printed": "44",
+     "pdf": 3,
+     "label": "“As to the charge of plagiarism…”",
+     "ocrErr": 2,
+     "passages": [
+      {
+       "id": "CR002-P-b",
+       "cite": true,
+       "text": "As to the accusation that the Draft Constitution has reproduced a good part of the provisions of the Government of India Act, 1935, I make no apologies. There is nothing to be ashamed of in borrowing. It involves no plagiarism. Nobody holds any patent rights in the fundamental ideas of a Constitution.",
+       "note": "Widely reproduced excerpt — wording to be verified against the printed edition before production use."
+      }
+     ],
+     "ocr": "As to the accusation that the Draft Constitution has reproduced a good part of the provisons of the Govemment of India Act, 1935, I make no apologies. There is nothing to be ashamed of in borrowing. It involves no plagarism. Nobody holds any patent rights in the fundmental ideas of a Constitution."
+    }
+   ]
+  },
+  {
+   "id": "CR-003",
+   "kind": "constitutional",
+   "title": "Drafting Committee — First Sitting",
+   "titleDev": "प्रारूप समिति — पहली बैठक",
+   "creator": "Constituent Assembly of India",
+   "role": "RECORD",
+   "year": 1947,
+   "dateLabel": "29 August 1947 · New Delhi",
+   "language": "English",
+   "edition": "Committee records (summary entry)",
+   "volume": "—",
+   "sourceName": "Parliament Digital Library — Constituent Assembly records",
+   "sourceRef": "SR-06",
+   "rights": "public_display_approved",
+   "cached": true,
+   "desc": "The minute that names the Chairman: on 29 August 1947 the seven-member Drafting Committee held its first sitting and elected Dr. B. R. Ambedkar as Chairman.",
+   "tags": [
+    "drafting committee",
+    "29 august 1947",
+    "chairman",
+    "record"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN"
+   ],
+   "pages": [
+    {
+     "printed": "1",
+     "pdf": 0,
+     "label": "Committee minute",
+     "ocrErr": 0,
+     "passages": [
+      {
+       "id": "CR003-P-a",
+       "text": "Drafting Committee of the Constituent Assembly — first sitting, 29 August 1947: the Committee elected Dr. B. R. Ambedkar as its Chairman. The Committee was instructed to prepare a fresh Draft Constitution for submission to the Assembly.",
+       "note": "Sample record entry, curator-reviewed for the demo corpus."
+      }
+     ],
+     "ocr": "Drafting Committee of the Constituent Assembly - first sitting, 29 August 1947: the Committe elected Dr. B. R. Ambedkar as its Chairman. The Committee was instructed to prepare a fresh Draft Constitution for submisson to the Assembly."
+    }
+   ]
+  },
+  {
+   "id": "MP-001",
+   "kind": "manuscript_photo",
+   "title": "Constitution of India — Illuminated Manuscript (facsimile sample)",
+   "titleDev": "भारत का संविधान — अलंकृत पांडुलिपि",
+   "creator": "Calligraphy: Prem Behari Narain Raizada · illuminations: Nandalal Bose and artists of Santiniketan (as widely documented)",
+   "role": "PORTAYS / ILLUMINATES",
+   "year": 1950,
+   "dateLabel": "1946–c.1951 · New Delhi",
+   "language": "English",
+   "edition": "Facsimile page — placeholder",
+   "volume": "—",
+   "sourceName": "Parliament of India — manuscript holdings (attribution register)",
+   "sourceRef": "SR-07",
+   "rights": "public_display_approved",
+   "cached": false,
+   "desc": "The original Constitution was handwritten in calligraphy and illuminated page by page — the Fundamental Rights pages bearing some of its most celebrated artwork.",
+   "tags": [
+    "constitution",
+    "calligraphy",
+    "nandalal bose",
+    "illumination",
+    "manuscript",
+    "fundamental rights"
+   ],
+   "badges": [
+    "ORIGINAL SCAN",
+    "CURATOR DESCRIPTION"
+   ],
+   "pages": [
+    {
+     "printed": "—",
+     "pdf": 0,
+     "label": "Illuminated opening (placeholder image)",
+     "ocrErr": 0,
+     "image": "mandala",
+     "passages": [
+      {
+       "id": "MP001-P-a",
+       "text": "The hand-written Constitution of India — calligraphy by Prem Behari Narain Raizada, illuminated under the direction of Nandalal Bose with artists of Santiniketan — is preserved as a bound manuscript. The image shown here is a generated placeholder for the prototype; the rights-approved facsimile will render at this position.",
+       "note": "Curator-supplied description (sample). Attribution as widely documented; verify with the holding institution before production."
+      }
+     ],
+     "ocr": "The hand-written Constitution of India - calligraphy by Prem Behari Narain Raizada, illuminated under the directon of Nandalal Bose with artists of Santiniketan - is preserved as a bound manusript."
+    },
+    {
+     "printed": "Part III",
+     "pdf": 1,
+     "label": "Fundamental Rights page (placeholder image)",
+     "ocrErr": 0,
+     "image": "mandala",
+     "passages": [
+      {
+       "id": "MP001-P-b",
+       "text": "Part III — Fundamental Rights. The illuminated headings of the original manuscript frame the articles that guarantee equality before the law, prohibition of discrimination, and the freedoms of speech, assembly, movement and faith.",
+       "note": "Curator-supplied description (sample) — placeholder artwork, not a reproduction of the original illumination."
+      }
+     ],
+     "ocr": "Part III - Fundamental Rights. The illuminated headings of the original manuscrupt frame the articles that guarantee equality before the law and the freedoms of speech, assembly, movement and faith."
+    }
+   ]
+  },
+  {
+   "id": "MP-002",
+   "kind": "manuscript_photo",
+   "title": "Photograph — Dr. Ambedkar at the Constituent Assembly",
+   "titleDev": "फ़ोटो — संविधान सभा में डॉ. आंबेडकर",
+   "creator": "Photographer: uncredited (placeholder record)",
+   "role": "PORTRAYS",
+   "year": 1949,
+   "dateLabel": "1946–1949 · Constitution Hall",
+   "language": "—",
+   "edition": "Silver-gelatin print (placeholder)",
+   "volume": "—",
+   "sourceName": "Image-use register — pending rights clearance",
+   "sourceRef": "SR-08",
+   "rights": "public_display_approved",
+   "cached": true,
+   "desc": "A placeholder frame for a rights-cleared photograph from the Assembly years. The image-use register records origin, license and jurisdiction before any photograph is displayed.",
+   "tags": [
+    "photograph",
+    "constituent assembly",
+    "portrait",
+    "placeholder"
+   ],
+   "badges": [
+    "ORIGINAL SCAN",
+    "RIGHTS REGISTER"
+   ],
+   "pages": [
+    {
+     "printed": "—",
+     "pdf": 0,
+     "label": "Photographic print (placeholder image)",
+     "ocrErr": 0,
+     "image": "photo",
+     "passages": [
+      {
+       "id": "MP002-P-a",
+       "text": "Placeholder photographic record. A Wikimedia Commons portrait of Dr. Ambedkar is listed as public domain on its file page; before any deployment the team must complete a jurisdiction and provenance review, and record the decision in the rights register (§3.1).",
+       "note": "Image-use register entry — sample text."
+      }
+     ],
+     "ocr": "Placeholder photographic record. A Wikimedia Commons portait of Dr. Ambedkar is listed as public domain on its file page; before any deployment the team must compleate a jurisdiction and provenance review."
+    }
+   ]
+  },
+  {
+   "id": "MP-003",
+   "kind": "manuscript_photo",
+   "title": "Manuscript draft note — private holding (details withheld)",
+   "titleDev": "पांडुलिपि ड्राफ़्ट टिप्पणी — निजी संग्रह",
+   "creator": "Withheld pending agreement",
+   "role": "—",
+   "year": 1935,
+   "dateLabel": "c.1935 · custody: holding institution",
+   "language": "Marathi",
+   "edition": "—",
+   "volume": "—",
+   "sourceName": "Holding institution — link-only listing",
+   "sourceRef": "SR-09",
+   "rights": "link_only",
+   "cached": false,
+   "desc": "This record is listed by permission as a link only: the kiosk shows the catalogue entry and points to the custodian. No scan is mirrored, and the item is excluded from search indexes and the AI evidence set.",
+   "tags": [
+    "manuscript",
+    "restricted",
+    "link only",
+    "custodian"
+   ],
+   "badges": [
+    "LINK ONLY",
+    "RIGHTS REGISTER"
+   ],
+   "pages": []
+  },
+  {
+   "id": "AV-001",
+   "kind": "media",
+   "title": "Oral history — memories of Nagpur, October 1956",
+   "titleDev": "मौखिक इतिहास — नागपुर, अक्टूबर 1956",
+   "creator": "Modern narration — recorded for the prototype",
+   "role": "NARRATOR",
+   "year": 2024,
+   "dateLabel": "Modern narration · sample",
+   "language": "English",
+   "edition": "Demo track",
+   "volume": "—",
+   "sourceName": "Prototype team — cleared sample",
+   "sourceRef": "SR-10",
+   "rights": "public_display_approved",
+   "cached": false,
+   "desc": "A modern narrated account of the Dhamma Deeksha at Nagpur — labelled MODERN NARRATION, never mixed with authentic recordings.",
+   "tags": [
+    "1956",
+    "nagpur",
+    "conversion",
+    "buddhism",
+    "dhamma",
+    "narration"
+   ],
+   "badges": [
+    "MODERN NARRATION",
+    "CAPTIONED"
+   ],
+   "mediaKind": "narration",
+   "segments": [
+    {
+     "ms": 0,
+     "dur": 8000,
+     "speaker": "Narrator",
+     "text": "October 1956. Nagpur. A city preparing for one of the largest public conversions in modern Indian history."
+    },
+    {
+     "ms": 8000,
+     "dur": 9000,
+     "speaker": "Narrator",
+     "text": "On the fourteenth of October, at Deekshabhoomi, Dr. Ambedkar took the Three Jewels and the Five Precepts."
+    },
+    {
+     "ms": 17000,
+     "dur": 9000,
+     "speaker": "Narrator",
+     "text": "He was joined by hundreds of thousands of followers who embraced the Dhamma alongside him that day."
+    },
+    {
+     "ms": 26000,
+     "dur": 9000,
+     "speaker": "Narrator",
+     "text": "The choice of Nagpur carried deliberate historical resonance with the Buddhist legacy of this land."
+    },
+    {
+     "ms": 35000,
+     "dur": 9000,
+     "speaker": "Narrator",
+     "text": "Weeks later, on the sixth of December 1956, Dr. Ambedkar passed away in Delhi."
+    },
+    {
+     "ms": 44000,
+     "dur": 8000,
+     "speaker": "Narrator",
+     "text": "His final resting place, Chaitya Bhoomi, draws visitors from across the country to this day."
+    }
+   ]
+  },
+  {
+   "id": "AV-002",
+   "kind": "media",
+   "title": "Archival audio excerpt — placeholder (authentic, pending clearance)",
+   "titleDev": "संग्रह ऑडियो अंश — प्लेसहोल्डर",
+   "creator": "Rights holder: pending",
+   "role": "—",
+   "year": 1950,
+   "dateLabel": "c.1950 · clearance pending",
+   "language": "Hindi / Marathi",
+   "edition": "Demo track",
+   "volume": "—",
+   "sourceName": "Rights holder — clearance pending",
+   "sourceRef": "SR-11",
+   "rights": "public_display_approved",
+   "cached": true,
+   "desc": "A placeholder for a genuine archival recording awaiting clearance. The badge stays AUTHENTIC RECORDING because a synthetic voice must never stand in for the historical one.",
+   "tags": [
+    "archival",
+    "audio",
+    "authentic",
+    "pending clearance",
+    "cached"
+   ],
+   "badges": [
+    "AUTHENTIC RECORDING",
+    "CAPTIONED",
+    "OFFLINE CACHED"
+   ],
+   "mediaKind": "authentic",
+   "segments": [
+    {
+     "ms": 0,
+     "dur": 10000,
+     "speaker": "Archival (pending)",
+     "text": "[Placeholder] This position is reserved for a cleared authentic recording."
+    },
+    {
+     "ms": 10000,
+     "dur": 10000,
+     "speaker": "Archival (pending)",
+     "text": "[Placeholder] No synthetic voice is substituted for the historical one."
+    },
+    {
+     "ms": 20000,
+     "dur": 10000,
+     "speaker": "Archival (pending)",
+     "text": "[Placeholder] Captions and transcript seek are demonstrated with sample text."
+    },
+    {
+     "ms": 30000,
+     "dur": 10000,
+     "speaker": "Archival (pending)",
+     "text": "[Placeholder] Rights clearance completes before any public playback."
+    }
+   ]
+  },
+  {
+   "id": "WS-005",
+   "kind": "writing",
+   "title": "Waiting for a Visa — autobiographical note",
+   "titleDev": "वेटिंग फॉर अ वीज़ा",
+   "creator": "Dr. B. R. Ambedkar",
+   "role": "AUTHOR",
+   "year": 1935,
+   "dateLabel": "c.1935–36 · draft catalogue entry",
+   "language": "English",
+   "edition": "Draft entry — not yet published",
+   "volume": "—",
+   "sourceName": "Dr. Ambedkar Foundation — Collected Works catalogue",
+   "sourceRef": "SR-12",
+   "rights": "public_display_approved",
+   "status": "draft",
+   "cached": false,
+   "desc": "DRAFT ENTRY. An autobiographical fragment recounting experiences of exclusion placed in the way of travel and study — awaiting editorial review before it may appear in the public archive.",
+   "tags": [
+    "autobiography",
+    "draft",
+    "travel",
+    "visa"
+   ],
+   "badges": [
+    "REVIEWED TEXT",
+    "ORIGINAL SCAN"
+   ],
+   "pages": [
+    {
+     "printed": "—",
+     "pdf": 0,
+     "label": "Draft catalogue entry",
+     "ocrErr": 1,
+     "passages": [
+      {
+       "id": "WS005-P-a",
+       "text": "[DRAFT] Catalogue entry under preparation: an autobiographical note by Dr. Ambedkar describing obstacles placed in the way of travel and study. The reviewed text and scan load here after editorial review and rights confirmation.",
+       "note": "Curator draft — not for public display until review completes (FR-10)."
+      }
+     ],
+     "ocr": "[DRAFT] Catalogue entry under preperation: an autobiographical note by Dr. Ambedkar describing obsticals placed in the way of travel and study."
+    }
+   ]
+  },
+  {
+   "id": "MP-004",
+   "kind": "manuscript_photo",
+   "title": "Photograph — Rajgraha, Dadar (Bombay)",
+   "titleDev": "रजगृह, दादर",
+   "creator": "Photographer: uncredited (placeholder record)",
+   "role": "PORTRAYS",
+   "year": 1951,
+   "dateLabel": "c.1950s · Bombay",
+   "language": "—",
+   "edition": "Print (placeholder)",
+   "volume": "—",
+   "sourceName": "Image-use register — review in progress",
+   "sourceRef": "SR-13",
+   "rights": "public_display_approved",
+   "status": "in_review",
+   "cached": false,
+   "desc": "IN REVIEW. Rajgraha — the Ambedkar family residence in Dadar, Bombay — in a placeholder frame pending image clearance and description review.",
+   "tags": [
+    "photograph",
+    "rajgraha",
+    "bombay",
+    "dadar"
+   ],
+   "badges": [
+    "ORIGINAL SCAN",
+    "RIGHTS REGISTER"
+   ],
+   "pages": [
+    {
+     "printed": "—",
+     "pdf": 0,
+     "label": "Photographic print (placeholder)",
+     "ocrErr": 0,
+     "image": "photo",
+     "passages": [
+      {
+       "id": "MP004-P-a",
+       "text": "Rajgraha, Hindu Colony, Dadar — the Bombay residence associated with Dr. Ambedkar’s later years. Placeholder image: the rights-cleared photograph and its reviewed caption load here after approval.",
+       "note": "Caption under review — placeholders are never indexed as historical evidence."
+      }
+     ],
+     "ocr": "Rajgraha, Hindu Colony, Dadar - the Bombay residence asociated with Dr. Ambedkar’s later years."
+    }
+   ]
+  },
+  {
+   "id": "AV-003",
+   "kind": "media",
+   "title": "Interview — eyewitness recalls Nagpur (permission pending)",
+   "titleDev": "नागपुर साक्ष्यात्मक साक्षात्कार (अनुमति लंबित)",
+   "creator": "Rights holder: permission pending",
+   "role": "—",
+   "year": 2024,
+   "dateLabel": "Modern recording · permission pending",
+   "language": "Marathi",
+   "edition": "—",
+   "volume": "—",
+   "sourceName": "Interviewee & rights holder — agreement pending",
+   "sourceRef": "SR-14",
+   "rights": "permission_pending",
+   "status": "permission_pending",
+   "cached": false,
+   "desc": "RIGHTS GATE. A recorded eyewitness memory of the 1956 ceremony — held back from display, download, derivatives and AI processing until a permission record is signed. It can never appear in public results.",
+   "tags": [
+    "interview",
+    "1956",
+    "nagpur",
+    "restricted"
+   ],
+   "badges": [
+    "LINK ONLY",
+    "RIGHTS REGISTER"
+   ],
+   "segments": []
+  }
+ ],
+ "events": [
+  {
+   "id": "E-1891",
+   "date": "14 April 1891",
+   "year": 1891,
+   "title": "A child of Mhow",
+   "kind": "manuscript_photo",
+   "text": "Bhimrao Ramji Sakpal is born at Mhow in the Central Provinces — present-day Dr. Ambedkar Nagar, Madhya Pradesh — the youngest of Ramji Maloji Sakpal’s children.",
+   "evidence": [
+    {
+     "rel": "PORTRAYS",
+     "item": "MP-002"
+    }
+   ]
+  },
+  {
+   "id": "E-1913",
+   "date": "1913",
+   "year": 1913,
+   "title": "Across the oceans",
+   "kind": "manuscript_photo",
+   "text": "A scholarship from the State of Baroda takes the young Ambedkar to Columbia University, New York — where John Dewey’s seminars leave a lifelong mark. Degrees and the Bar follow at Columbia, the LSE and Gray’s Inn.",
+   "evidence": [
+    {
+     "rel": "PORTRAYS",
+     "item": "MP-002"
+    }
+   ]
+  },
+  {
+   "id": "E-1920",
+   "date": "31 January 1920",
+   "year": 1920,
+   "title": "The Mooknayak speaks",
+   "kind": "writing",
+   "text": "The first issue of the Marathi weekly Mooknayak appears in Bombay, launched with the support of Chhatrapati Shahu Maharaj of Kolhapur — a press of their own for those long denied one.",
+   "evidence": [
+    {
+     "rel": "AUTHORED · edited",
+     "item": "WS-002"
+    }
+   ]
+  },
+  {
+   "id": "E-1924",
+   "date": "1924",
+   "year": 1924,
+   "title": "Bahishkrit Hitakarini Sabha",
+   "kind": "writing",
+   "text": "The association for the education and uplift of the excluded is founded in Bombay — running hostels, libraries and classes where the state would not.",
+   "evidence": [
+    {
+     "rel": "DISCUSSES",
+     "item": "WS-002"
+    }
+   ]
+  },
+  {
+   "id": "E-1927",
+   "date": "20 March 1927",
+   "year": 1927,
+   "title": "Mahad — water for all",
+   "kind": "interpretive",
+   "text": "At the Chavadar tank in Mahad, thousands assert the right to take water from a public tank. The Mahad Satyagraha becomes a founding act of the movement for civic equality; December brings the burning of the Manusmriti as a symbol of rejected authority.",
+   "evidence": [
+    {
+     "rel": "DISCUSSES",
+     "item": "WS-001"
+    }
+   ]
+  },
+  {
+   "id": "E-1930",
+   "date": "2 March 1930",
+   "year": 1930,
+   "title": "Kalaram temple entry",
+   "kind": "manuscript_photo",
+   "text": "The satyagraha to enter the Kalaram temple at Nashik begins — a disciplined campaign for the right to worship, facing obstruction for years.",
+   "evidence": [
+    {
+     "rel": "HELD BY CUSTODIAN",
+     "item": "MP-003"
+    }
+   ]
+  },
+  {
+   "id": "E-1932",
+   "date": "24 September 1932",
+   "year": 1932,
+   "title": "The Poona Pact",
+   "kind": "constitutional",
+   "text": "Signed at Yerwada after Mahatma Gandhi’s fast against separate electorates: reserved seats within the general electorate replace the Communal Award’s separate electorates for the Depressed Classes.",
+   "evidence": [
+    {
+     "rel": "DISCUSSES",
+     "item": "WS-003"
+    },
+    {
+     "rel": "CONTEXT · debates",
+     "item": "CR-002"
+    }
+   ]
+  },
+  {
+   "id": "E-1936",
+   "date": "1936",
+   "year": 1936,
+   "title": "Annihilation of Caste",
+   "kind": "writing",
+   "text": "The undelivered Lahore address is published by its author, with the organisers’ correspondence — the sharpest single critique of caste in twentieth-century Indian letters.",
+   "evidence": [
+    {
+     "rel": "AUTHORED",
+     "item": "WS-001"
+    }
+   ]
+  },
+  {
+   "id": "E-1942",
+   "date": "1942",
+   "year": 1942,
+   "title": "The Federation is founded",
+   "kind": "writing",
+   "text": "The All-India Scheduled Castes Federation is formed at Nagpur, carrying the movement into all-India politics — successor to the Independent Labour Party of 1936.",
+   "evidence": [
+    {
+     "rel": "SUBMITTED BY",
+     "item": "WS-003"
+    }
+   ]
+  },
+  {
+   "id": "E-1947",
+   "date": "29 August 1947",
+   "year": 1947,
+   "title": "Chairman of the Drafting Committee",
+   "kind": "constitutional",
+   "text": "Days after Independence — and now Law Minister in free India’s first cabinet — Dr. Ambedkar is elected Chairman of the Constituent Assembly’s Drafting Committee.",
+   "evidence": [
+    {
+     "rel": "RECORD",
+     "item": "CR-003"
+    }
+   ]
+  },
+  {
+   "id": "E-1949",
+   "date": "26 November 1949",
+   "year": 1949,
+   "title": "“…adopt, enact and give to ourselves”",
+   "kind": "constitutional",
+   "text": "The Constituent Assembly adopts the Constitution. The Chairman’s closing speech warns that democracy remains “a top-dressing” until social and economic equality catches up with the ballot.",
+   "evidence": [
+    {
+     "rel": "SPOKE AT",
+     "item": "CR-001",
+     "page": 1,
+     "passage": "CR001-P-b"
+    }
+   ]
+  },
+  {
+   "id": "E-1950",
+   "date": "26 January 1950",
+   "year": 1950,
+   "title": "The Republic is born",
+   "kind": "manuscript_photo",
+   "text": "The Constitution comes into force — the date chosen to honour Purna Swaraj Day, 26 January 1930. India becomes a sovereign democratic republic.",
+   "evidence": [
+    {
+     "rel": "ILLUMINATES",
+     "item": "MP-001"
+    },
+    {
+     "rel": "RECORD",
+     "item": "CR-001",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "id": "E-1956",
+   "date": "14 October 1956",
+   "year": 1956,
+   "title": "Dhamma Deeksha, Nagpur",
+   "kind": "media",
+   "text": "At Deekshabhoomi, Nagpur, Dr. Ambedkar receives the Three Jewels and Five Precepts — joined in conversion by hundreds of thousands of followers.",
+   "evidence": [
+    {
+     "rel": "NARRATES",
+     "item": "AV-001"
+    }
+   ]
+  },
+  {
+   "id": "E-1956b",
+   "date": "6 December 1956",
+   "year": 1956,
+   "title": "Mahaparinirvana",
+   "kind": "manuscript_photo",
+   "text": "Dr. Ambedkar passes away at his Delhi residence. Chaitya Bhoomi, his cremation site in Dadar, becomes a place of remembrance for millions.",
+   "evidence": [
+    {
+     "rel": "NARRATES",
+     "item": "AV-001"
+    },
+    {
+     "rel": "PORTRAYS",
+     "item": "MP-002"
+    }
+   ]
+  }
+ ],
+ "eras": [
+  {
+   "key": "era1",
+   "from": 1891,
+   "to": 1919
+  },
+  {
+   "key": "era2",
+   "from": 1920,
+   "to": 1935
+  },
+  {
+   "key": "era3",
+   "from": 1936,
+   "to": 1946
+  },
+  {
+   "key": "era4",
+   "from": 1947,
+   "to": 1950
+  },
+  {
+   "key": "era5",
+   "from": 1951,
+   "to": 1956
+  }
+ ],
+ "km_nodes": [
+  {
+   "id": "AMB",
+   "type": "person",
+   "x": 600,
+   "y": 370,
+   "r": 46,
+   "lines": [
+    "Dr. B. R.",
+    "Ambedkar"
+   ],
+   "sub": "1891 – 1956"
+  },
+  {
+   "id": "WS-001",
+   "type": "work",
+   "x": 395,
+   "y": 262,
+   "r": 30,
+   "lines": [
+    "Annihilation",
+    "of Caste"
+   ],
+   "sub": "1936"
+  },
+  {
+   "id": "WS-002",
+   "type": "work",
+   "x": 285,
+   "y": 398,
+   "r": 30,
+   "lines": [
+    "Mooknayak",
+    "No. 1"
+   ],
+   "sub": "1920"
+  },
+  {
+   "id": "WS-003",
+   "type": "work",
+   "x": 398,
+   "y": 535,
+   "r": 30,
+   "lines": [
+    "States and",
+    "Minorities"
+   ],
+   "sub": "1947"
+  },
+  {
+   "id": "CR-001",
+   "type": "debate",
+   "x": 806,
+   "y": 262,
+   "r": 30,
+   "lines": [
+    "CAD · 26 Nov 1949",
+    "closing speech"
+   ],
+   "sub": "Vol. XI"
+  },
+  {
+   "id": "CR-002",
+   "type": "debate",
+   "x": 912,
+   "y": 398,
+   "r": 30,
+   "lines": [
+    "CAD · 4 Nov 1948",
+    "draft motion"
+   ],
+   "sub": "Vol. VII"
+  },
+  {
+   "id": "CR-003",
+   "type": "record",
+   "x": 800,
+   "y": 535,
+   "r": 30,
+   "lines": [
+    "Drafting Cttee",
+    "first sitting"
+   ],
+   "sub": "1947"
+  },
+  {
+   "id": "MP-001",
+   "type": "manuscript",
+   "x": 1044,
+   "y": 468,
+   "r": 30,
+   "lines": [
+    "Illuminated",
+    "Constitution"
+   ],
+   "sub": "facsimile"
+  },
+  {
+   "id": "AV-001",
+   "type": "media",
+   "x": 330,
+   "y": 655,
+   "r": 30,
+   "lines": [
+    "Nagpur 1956",
+    "narration"
+   ],
+   "sub": "modern"
+  },
+  {
+   "id": "T-CASTE",
+   "type": "subject",
+   "x": 150,
+   "y": 296,
+   "lines": [
+    "Caste"
+   ],
+   "sub": "subject"
+  },
+  {
+   "id": "T-MORAL",
+   "type": "subject",
+   "x": 1052,
+   "y": 222,
+   "lines": [
+    "Constitutional",
+    "morality"
+   ],
+   "sub": "subject"
+  },
+  {
+   "id": "T-DHAMMA",
+   "type": "subject",
+   "x": 612,
+   "y": 668,
+   "lines": [
+    "Dhamma",
+    "Deeksha 1956"
+   ],
+   "sub": "subject"
+  }
+ ],
+ "km_edges": [
+  {
+   "from": "AMB",
+   "to": "WS-001",
+   "rel": "AUTHORED",
+   "color": "#B85C10"
+  },
+  {
+   "from": "AMB",
+   "to": "WS-002",
+   "rel": "EDITED",
+   "color": "#B85C10"
+  },
+  {
+   "from": "AMB",
+   "to": "WS-003",
+   "rel": "AUTHORED",
+   "color": "#B85C10"
+  },
+  {
+   "from": "AMB",
+   "to": "CR-001",
+   "rel": "SPOKE AT",
+   "color": "#2B5AA0"
+  },
+  {
+   "from": "AMB",
+   "to": "CR-002",
+   "rel": "SPOKE AT",
+   "color": "#2B5AA0"
+  },
+  {
+   "from": "AMB",
+   "to": "CR-003",
+   "rel": "CHAIRED",
+   "color": "#35509E"
+  },
+  {
+   "from": "WS-001",
+   "to": "T-CASTE",
+   "rel": "DISCUSSES",
+   "color": "#1E7A46"
+  },
+  {
+   "from": "WS-003",
+   "to": "T-CASTE",
+   "rel": "DISCUSSES",
+   "color": "#1E7A46",
+   "lt": 0.68
+  },
+  {
+   "from": "CR-001",
+   "to": "T-MORAL",
+   "rel": "DISCUSSES",
+   "color": "#1E7A46"
+  },
+  {
+   "from": "CR-003",
+   "to": "MP-001",
+   "rel": "DRAFTED",
+   "color": "#7A1F2B"
+  },
+  {
+   "from": "CR-001",
+   "to": "MP-001",
+   "rel": "ADOPTED",
+   "color": "#7A1F2B",
+   "lt": 0.38
+  },
+  {
+   "from": "AMB",
+   "to": "T-DHAMMA",
+   "rel": "EMBRACED 1956",
+   "color": "#0E6E6E"
+  },
+  {
+   "from": "AV-001",
+   "to": "T-DHAMMA",
+   "rel": "NARRATES",
+   "color": "#0E6E6E"
+  }
+ ],
+ "stories": [
+  {
+   "id": "republic",
+   "title": "The Making of the Republic",
+   "sub": "1946 – 1950 · from a committee of seven to an illuminated republic",
+   "stops": [
+    {
+     "date": "29 August 1947",
+     "title": "A committee of seven",
+     "item": null
+    },
+    {
+     "date": "4 November 1948",
+     "title": "“The borrowed constitution?”",
+     "item": null
+    },
+    {
+     "date": "26 November 1949",
+     "title": "The last speech",
+     "item": null
+    },
+    {
+     "date": "26 January 1950",
+     "title": "An illuminated republic",
+     "item": null
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "A Voice for the Mute",
+   "sub": "1920 – 1936 · the press, the tank, and the undelivered address",
+   "stops": [
+    {
+     "date": "31 January 1920",
+     "title": "Mooknayak",
+     "item": null
+    },
+    {
+     "date": "1924",
+     "title": "Hostels, libraries, schools",
+     "item": null
+    },
+    {
+     "date": "20 March 1927",
+     "title": "Water at Mahad",
+     "item": null
+    },
+    {
+     "date": "1936",
+     "title": "The undelivered address",
+     "item": null
+    }
+   ]
+  },
+  {
+   "id": "dhamma",
+   "title": "Nagpur, October 1956",
+   "sub": "the Dhamma turn · a last public act of conviction",
+   "stops": [
+    {
+     "date": "14 October 1956",
+     "title": "Deekshabhoomi",
+     "item": null
+    },
+    {
+     "date": "The chosen city",
+     "title": "Why Nagpur?",
+     "item": null
+    },
+    {
+     "date": "6 December 1956",
+     "title": "Mahaparinirvana",
+     "item": null
+    }
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "HW-01",
+   "procedure": "Boot the Pi with sensor, display, speaker and USB touch attached",
+   "pass": "Stable boot; no low-power warning; touch calibration works",
+   "mode": "hw"
+  },
+  {
+   "id": "HW-02",
+   "procedure": "Measure PIR output high before wiring; approach the kiosk",
+   "pass": "OUT ≤ 3.3 V (or shifted); UI wakes once, not in a loop",
+   "mode": "hw"
+  },
+  {
+   "id": "HW-03",
+   "procedure": "Tap HOME repeatedly and during media playback",
+   "pass": "Returns Home, stops playback, clears previous visitor state",
+   "mode": "demo"
+  },
+  {
+   "id": "HW-04",
+   "procedure": "Run the exhibit continuously for the agreed demo period",
+   "pass": "No shutdown or thermal throttling that disrupts operation",
+   "mode": "hw"
+  },
+  {
+   "id": "DOC-01",
+   "procedure": "Search a known quotation or title and open the result",
+   "pass": "Correct verified item and printed page — not just matching PDF text",
+   "mode": "demo"
+  },
+  {
+   "id": "DOC-02",
+   "procedure": "Ingest an item with permission_pending rights",
+   "pass": "Absent from public listing, search, Q&A context and offline bundle",
+   "mode": "demo"
+  },
+  {
+   "id": "OCR-01",
+   "procedure": "Compare sampled printed pages, by script, with originals",
+   "pass": "Record word/character error rate and exceptions; no single universal accuracy claim",
+   "mode": "corpus"
+  },
+  {
+   "id": "AV-01",
+   "procedure": "Select a media transcript cue",
+   "pass": "Playback jumps to the correct timestamp; captions are available",
+   "mode": "demo"
+  },
+  {
+   "id": "RAG-01",
+   "procedure": "Ask answerable curated questions",
+   "pass": "Cited passages genuinely support the answer; citation click opens the source",
+   "mode": "demo"
+  },
+  {
+   "id": "RAG-02",
+   "procedure": "Ask an out-of-scope or misleading question",
+   "pass": "AI abstains rather than inventing a quote or a page number",
+   "mode": "demo"
+  },
+  {
+   "id": "RAG-03",
+   "procedure": "Put “ignore instructions” inside a test document",
+   "pass": "Document instructions are ignored; only content can be evidence",
+   "mode": "be"
+  },
+  {
+   "id": "LANG-01",
+   "procedure": "Switch UI language; ask a cross-language question",
+   "pass": "UI labels render; translation badge present; original still accessible",
+   "mode": "demo"
+  },
+  {
+   "id": "NET-01",
+   "procedure": "Disconnect Wi-Fi before and during a request",
+   "pass": "Cached approved exhibit usable; clear offline state; no frozen spinner",
+   "mode": "demo"
+  },
+  {
+   "id": "NET-02",
+   "procedure": "Reconnect with a newer allowed manifest",
+   "pass": "Cache updates atomically; revoked items removed when reconnected",
+   "mode": "be"
+  },
+  {
+   "id": "ACCESS-01",
+   "procedure": "Use keyboard, screen-reader inspection and headphones",
+   "pass": "No vital action is touch-only; caption/contrast/timing issues documented",
+   "mode": "demo"
+  },
+  {
+   "id": "SEC-01",
+   "procedure": "Call the admin API from the public Pi identity",
+   "pass": "Denied; server audit entry without private content disclosure",
+   "mode": "be"
+  }
+ ],
+ "ask_set": [
+  {
+   "keys": [
+    "constitutional morality",
+    "morality"
+   ],
+   "answer": "In his closing speech to the Constituent Assembly on 26 November 1949, Dr. B. R. Ambedkar observed that constitutional morality is not a natural sentiment — it has to be cultivated — and warned that democracy in India was “only a top-dressing on an Indian soil which is essentially undemocratic” until equality reached social and economic life.",
+   "cites": [
+    {
+     "item": "CR-001",
+     "page": 1,
+     "passage": "CR001-P-b",
+     "label": "p. 978"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "annihilation of caste",
+    "caste"
+   ],
+   "answer": "Annihilation of Caste (1936) is the presidential address withdrawn under pressure from its host organisation and then published by Dr. Ambedkar himself. It argues that caste is not merely a division of labour but a division of labourers, and that no remedy succeeds without destroying the religious sanction that upholds caste.",
+   "cites": [
+    {
+     "item": "WS-001",
+     "page": 1,
+     "passage": "WS001-P-b",
+     "label": "p. 12"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "constitution adopted",
+    "adopted",
+    "when was the constitution"
+   ],
+   "answer": "The Constituent Assembly adopted the Constitution of India on 26 November 1949, after two years, eleven months and eighteen days of drafting. It came into force on 26 January 1950 — the date chosen to honour Purna Swaraj Day of 26 January 1930.",
+   "cites": [
+    {
+     "item": "CR-001",
+     "page": 2,
+     "passage": "CR001-P-e",
+     "label": "p. 980"
+    },
+    {
+     "item": "MP-001",
+     "page": 0,
+     "passage": "MP001-P-a",
+     "label": "facsimile"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "poona pact",
+    "yerwada",
+    "separate electorates",
+    "communal award"
+   ],
+   "answer": "The Poona Pact of 24 September 1932 was signed at Yerwada following Mahatma Gandhi’s fast against the Communal Award’s separate electorates for the Depressed Classes. It replaced separate electorates with reserved seats within the general electorate — a settlement whose terms shaped later safeguards, addressed again in States and Minorities (1947).",
+   "cites": [
+    {
+     "item": "WS-003",
+     "page": 0,
+     "passage": "WS003-P-a",
+     "label": "memorandum"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "nagpur",
+    "1956",
+    "conversion",
+    "buddhism",
+    "dhamma",
+    "deeksha"
+   ],
+   "answer": "On 14 October 1956 at Deekshabhoomi, Nagpur, Dr. Ambedkar publicly received the Three Jewels and the Five Precepts, and was joined in conversion by hundreds of thousands of followers. Nagpur was chosen for its resonance with this land’s Buddhist past. The archive holds a modern narrated account of that day — labelled MODERN NARRATION, not an authentic recording.",
+   "cites": [
+    {
+     "item": "AV-001",
+     "page": 0,
+     "passage": null,
+     "label": "media"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "26 january",
+    "republic day",
+    "republic"
+   ],
+   "answer": "26 January marks the day the Constitution came into force in 1950. The date was deliberately chosen to honour Purna Swaraj Day — 26 January 1930 — when the Indian National Congress first pledged complete independence. The illuminated manuscript of the Constitution, calligraphed and painted by artists of Santiniketan, is held as one of the Republic’s treasures.",
+   "cites": [
+    {
+     "item": "MP-001",
+     "page": 1,
+     "passage": "MP001-P-b",
+     "label": "Part III"
+    },
+    {
+     "item": "CR-001",
+     "page": 2,
+     "passage": "CR001-P-e",
+     "label": "p. 980"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "mooknayak",
+    "newspaper",
+    "weekly",
+    "press"
+   ],
+   "answer": "Mooknayak — “the hero of the mute” — was the Marathi weekly launched in Bombay on 31 January 1920 under the editorship of Dr. B. R. Ambedkar, with the support of Chhatrapati Shahu Maharaj of Kolhapur. It gave the movement its first press of its own. The first issue is held in the archive as a scan with reviewed Marathi text; its full translation is pending review.",
+   "cites": [
+    {
+     "item": "WS-002",
+     "page": 0,
+     "passage": "WS002-P-a",
+     "label": "p. 1"
+    }
+   ]
+  },
+  {
+   "keys": [
+    "drafting committee",
+    "chairman"
+   ],
+   "answer": "The Drafting Committee of the Constituent Assembly held its first sitting on 29 August 1947 and elected Dr. B. R. Ambedkar — then Law Minister — as its Chairman. The Committee produced the Draft Constitution placed before the Assembly on 4 November 1948.",
+   "cites": [
+    {
+     "item": "CR-003",
+     "page": 0,
+     "passage": "CR003-P-a",
+     "label": "minute"
+    },
+    {
+     "item": "CR-002",
+     "page": 0,
+     "passage": "CR002-P-a",
+     "label": "p. 38"
+    }
+   ]
+  }
+ ],
+ "suggested": [
+  "What did Ambedkar say about constitutional morality?",
+  "What is Annihilation of Caste about?",
+  "When was the Constitution of India adopted?",
+  "What happened at Nagpur in October 1956?",
+  "Tell me about the Poona Pact.",
+  "What was Dr. Ambedkar’s favourite colour?"
+ ],
+ "admin_ids": [
+  "WS-005",
+  "MP-004",
+  "AV-003",
+  "MP-002"
+ ],
+ "image_credits": [
+  {
+   "key": "portrait",
+   "alt": "Dr. B. R. Ambedkar, studio portrait",
+   "credit": "Public domain via PICRYL / Wikimedia Commons",
+   "w": 512,
+   "h": 611
+  },
+  {
+   "key": "annihilation",
+   "alt": "Dr. Ambedkar addressing a public gathering",
+   "credit": "Public domain via PICRYL",
+   "w": 468,
+   "h": 720
+  },
+  {
+   "key": "assembly",
+   "alt": "Dr. Ambedkar presents the final draft of the Constitution to Dr. Rajendra Prasad, 25 Nov 1949",
+   "credit": "Wikimedia Commons, public domain (India)",
+   "w": 670,
+   "h": 526
+  },
+  {
+   "key": "mspage",
+   "alt": "Preamble page of the illuminated Constitution of India manuscript",
+   "credit": "Wikimedia Commons, public domain (India)",
+   "w": 500,
+   "h": 670
+  },
+  {
+   "key": "stupa",
+   "alt": "Deekshabhoomi stupa, Nagpur",
+   "credit": "Outlook Traveller / Shutterstock (licence to be cleared before deployment)",
+   "w": 720,
+   "h": 526
+  },
+  {
+   "key": "chaitya",
+   "alt": "Chaitya Bhoomi, Dadar, Mumbai",
+   "credit": "Wikimedia Commons, CC BY-SA",
+   "w": 460,
+   "h": 289
+  },
+  {
+   "key": "mooknayak",
+   "alt": "Masthead of Mooknayak, 1920",
+   "credit": "Wikimedia Commons, public domain (India)",
+   "w": 336,
+   "h": 250
+  },
+  {
+   "key": "poona",
+   "alt": "Jayakar, Sapru and Ambedkar at Yerwada jail, 24 Sep 1932",
+   "credit": "Wikimedia Commons, public domain (India)",
+   "w": 668,
+   "h": 500
+  },
+  {
+   "key": "mahad",
+   "alt": "Chavdar tank, Mahad",
+   "credit": "ThePrint (licence to be cleared before deployment)",
+   "w": 720,
+   "h": 405
+  },
+  {
+   "key": "abroad",
+   "alt": "Ambedkar with professors and friends, LSE 1916-17",
+   "credit": "The Beacon / public domain (India)",
+   "w": 678,
+   "h": 381
+  },
+  {
+   "key": "mangaon",
+   "alt": "Mangaon conference with Shahu Maharaj, March 1920",
+   "credit": "brambedkar.in / public domain (India)",
+   "w": 500,
+   "h": 318
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/heritage/contracts/offline-manifest.schema.json",
+  "title": "GET /v1/offline-manifest",
+  "description": "Signed, versioned, expiring list of items (and, in production, assets) the kiosk may cache. Unknown/pending/withdrawn items never appear. The kiosk rejects bad signatures, rollbacks and manifests expired beyond the grace period.",
+  "type": "object",
+  "required": ["body", "sig"],
+  "additionalProperties": false,
+  "properties": {
+    "sig": {"type": "string", "description": "Prototype: hex HMAC-SHA256 over the canonical JSON body (sorted keys, no whitespace). Future: Ed25519 signature.", "pattern": "^[0-9a-f]{64,128}$"},
+    "body": {
+      "type": "object",
+      "required": ["version", "issued_at", "expires_at", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "version": {"type": "integer", "minimum": 1, "description": "Strictly increasing; the kiosk rejects version <= current."},
+        "issued_at": {"type": "string", "format": "date-time"},
+        "expires_at": {"type": "string", "format": "date-time"},
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["item_id", "kind", "title"],
+            "additionalProperties": false,
+            "properties": {
+              "item_id": {"type": "string"},
+              "kind": {"enum": ["writing", "constitutional", "manuscript_photo", "media"]},
+              "title": {"type": "string"}
+            }
+          }
+        },
+        "assets": {
+          "type": "array",
+          "description": "Production only (not produced by reference/heritage_core/manifest.py).",
+          "items": {
+            "type": "object",
+            "required": ["asset_id", "item_id", "role", "sha256", "bytes", "url"],
+            "additionalProperties": false,
+            "properties": {
+              "asset_id": {"type": "string"},
+              "item_id": {"type": "string"},
+              "role": {"enum": ["access_image", "access_pdf", "caption", "audio", "video", "thumb"]},
+              "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+              "bytes": {"type": "integer", "minimum": 0},
+              "url": {"type": "string", "description": "Short-lived signed URL (minutes)."}
+            }
+          }
+        }
+      }
+    }
+  }
+}
