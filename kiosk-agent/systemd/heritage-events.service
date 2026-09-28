@@ -1,0 +1,18 @@
+# /etc/systemd/system/heritage-events.service
+[Unit]
+Description=Heritage kiosk loopback event relay
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/home/pi/archive-env/bin/python /home/pi/archive/kiosk-agent/local_event_service.py
+Restart=always
+RestartSec=2
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

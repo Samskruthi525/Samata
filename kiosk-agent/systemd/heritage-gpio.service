@@ -1,0 +1,17 @@
+# /etc/systemd/system/heritage-gpio.service   (replace paths/user)
+[Unit]
+Description=Heritage archive kiosk GPIO agent
+After=network.target heritage-events.service
+Wants=heritage-events.service
+
+[Service]
+Type=simple
+User=pi
+Environment=KIOSK_EVENT_URL=http://127.0.0.1:8765/device/event
+ExecStart=/home/pi/archive-env/bin/python /home/pi/archive/kiosk-agent/pi_gpio_bridge.py
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

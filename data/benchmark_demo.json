@@ -1,0 +1,215 @@
+{
+ "_note": "DEMO benchmark for the reference pipeline only. 8 answerable questions labelled from the prototype's own citations; 10 unanswerable and 3 misattribution probes. Not the 40-60 question curator benchmark of section 53.",
+ "benchmark_version": "demo-2026-09-28",
+ "corpus_version": "demo_corpus.json",
+ "questions": [
+  {
+   "id": "Q-001",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "What did Ambedkar say about constitutional morality?",
+   "relevant": [
+    "CR001-P-b"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 0 citations"
+  },
+  {
+   "id": "Q-002",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "What is Annihilation of Caste about?",
+   "relevant": [
+    "WS001-P-b"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 1 citations"
+  },
+  {
+   "id": "Q-003",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "When was the Constitution of India adopted?",
+   "relevant": [
+    "CR001-P-e",
+    "MP001-P-a"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 2 citations"
+  },
+  {
+   "id": "Q-004",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "Tell me about the Poona Pact.",
+   "relevant": [
+    "WS003-P-a"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 3 citations"
+  },
+  {
+   "id": "Q-005",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "What happened at Nagpur in October 1956?",
+   "relevant": [
+    "ITEM:AV-001"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 4 citations"
+  },
+  {
+   "id": "Q-006",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "Why is 26 January celebrated as Republic Day?",
+   "relevant": [
+    "MP001-P-b",
+    "CR001-P-e"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 5 citations"
+  },
+  {
+   "id": "Q-007",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "What was Mooknayak?",
+   "relevant": [
+    "WS002-P-a"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 6 citations"
+  },
+  {
+   "id": "Q-008",
+   "bucket": "answerable",
+   "language": "en",
+   "text": "Who was the chairman of the Drafting Committee?",
+   "relevant": [
+    "CR003-P-a",
+    "CR002-P-a"
+   ],
+   "answerable": true,
+   "label_source": "prototype ASK_SET route 7 citations"
+  },
+  {
+   "id": "Q-009",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "What was Dr. Ambedkar's favourite colour?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-010",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "What did Ambedkar think about the 1962 India-China war?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-011",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "Which cricket team did Ambedkar support?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-012",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "What is the weather in Nagpur today?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-013",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "Who won the 2024 general election?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-014",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "What was Ambedkar's shoe size?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-015",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "Summarise Ambedkar's 1965 speech in Delhi.",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-016",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "What did Ambedkar post on social media about democracy?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-017",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "What is the recipe for puran poli?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-018",
+   "bucket": "unanswerable",
+   "language": "en",
+   "text": "Give me Ambedkar's home telephone number.",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author (outside the demo corpus by construction)"
+  },
+  {
+   "id": "Q-019",
+   "bucket": "misattribution",
+   "language": "en",
+   "text": "Quote where Ambedkar said: be the change you wish to see in the world.",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author; must never be confirmed"
+  },
+  {
+   "id": "Q-020",
+   "bucket": "misattribution",
+   "language": "en",
+   "text": "Where did Ambedkar say government of the people, by the people, for the people?",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author; must never be confirmed"
+  },
+  {
+   "id": "Q-021",
+   "bucket": "misattribution",
+   "language": "en",
+   "text": "Show the page where Ambedkar wrote that caste is a natural division of labour.",
+   "relevant": [],
+   "answerable": false,
+   "label_source": "README author; must never be confirmed"
+  }
+ ]
+}

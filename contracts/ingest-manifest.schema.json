@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/heritage/contracts/ingest-manifest.schema.json",
+  "title": "Ingestion manifest (one catalogue record)",
+  "description": "Shape of the design document's Appendix B example. A record starts unpublished; nothing is public until a permission record AND a review record exist.",
+  "type": "object",
+  "required": ["id", "kind", "title", "language_code", "rights", "assets"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string"},
+    "kind": {"enum": ["writing", "constitutional", "manuscript_photo", "media"]},
+    "title": {"type": "string"},
+    "speaker": {"type": "string"},
+    "date_label": {"type": "string"},
+    "source_uri": {"type": "string"},
+    "edition_label": {"type": "string"},
+    "volume_label": {"type": "string"},
+    "language_code": {"type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$"},
+    "rights": {
+      "type": "object",
+      "required": ["status", "public_display", "ai_processing_allowed"],
+      "additionalProperties": true,
+      "properties": {
+        "status": {"enum": ["unknown", "permission_pending", "public_display_approved", "link_only", "restricted_to_staff", "withdrawn"]},
+        "public_display": {"type": "boolean"},
+        "download_allowed": {"type": "boolean", "default": false},
+        "ai_processing_allowed": {"type": "boolean"},
+        "offline_cache_allowed": {"type": "boolean", "default": false},
+        "permission_record_id": {"type": ["string", "null"]}
+      }
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["role", "uri"],
+        "properties": {
+          "role": {"enum": ["master", "access", "processing"]},
+          "uri": {"type": "string"},
+          "sha256": {"type": "string"}
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["pdf_page_index", "printed_page_label", "reviewed"],
+        "properties": {
+          "pdf_page_index": {"type": "integer", "minimum": 0},
+          "printed_page_label": {"type": "string"},
+          "reviewed": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

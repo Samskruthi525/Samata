@@ -1,0 +1,214 @@
+{
+ "ocr": [
+  {
+   "page": "WS-001 p.i",
+   "cer": 0.0217,
+   "wer": 0.1404
+  },
+  {
+   "page": "WS-001 p.12",
+   "cer": 0.0154,
+   "wer": 0.122
+  },
+  {
+   "page": "WS-001 p.68",
+   "cer": 0.038,
+   "wer": 0.1765
+  },
+  {
+   "page": "WS-002 p.1",
+   "cer": 0.0467,
+   "wer": 0.1875
+  },
+  {
+   "page": "WS-002 p.2",
+   "cer": 0.006,
+   "wer": 0.0476
+  },
+  {
+   "page": "WS-003 p.i",
+   "cer": 0.0207,
+   "wer": 0.1379
+  },
+  {
+   "page": "WS-003 p.9",
+   "cer": 0.0216,
+   "wer": 0.1515
+  },
+  {
+   "page": "CR-001 p.972",
+   "cer": 0.0128,
+   "wer": 0.0526
+  },
+  {
+   "page": "CR-001 p.978",
+   "cer": 0.0044,
+   "wer": 0.0263
+  },
+  {
+   "page": "CR-001 p.980",
+   "cer": 0.0185,
+   "wer": 0.1111
+  },
+  {
+   "page": "CR-002 p.38",
+   "cer": 0.3185,
+   "wer": 0.4048
+  },
+  {
+   "page": "CR-002 p.44",
+   "cer": 0.0166,
+   "wer": 0.0769
+  },
+  {
+   "page": "CR-003 p.1",
+   "cer": 0.0127,
+   "wer": 0.0811
+  },
+  {
+   "page": "WS-005 p.—",
+   "cer": 0.3904,
+   "wer": 0.4412
+  }
+ ],
+ "retrieval": {
+  "lexical": {
+   "hit@5": 0.875,
+   "mrr": 0.719,
+   "per_query": [
+    {
+     "q": "constitutional morality",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "annihilation of caste",
+     "hit": 1.0,
+     "rr": 0.25
+    },
+    {
+     "q": "constitution adopted",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "poona pact",
+     "hit": 0.0,
+     "rr": 0.0
+    },
+    {
+     "q": "nagpur",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "26 january",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "mooknayak",
+     "hit": 1.0,
+     "rr": 0.5
+    },
+    {
+     "q": "drafting committee",
+     "hit": 1.0,
+     "rr": 1.0
+    }
+   ]
+  },
+  "dense": {
+   "hit@5": 0.875,
+   "mrr": 0.594,
+   "per_query": [
+    {
+     "q": "constitutional morality",
+     "hit": 1.0,
+     "rr": 0.5
+    },
+    {
+     "q": "annihilation of caste",
+     "hit": 1.0,
+     "rr": 0.25
+    },
+    {
+     "q": "constitution adopted",
+     "hit": 1.0,
+     "rr": 0.5
+    },
+    {
+     "q": "poona pact",
+     "hit": 0.0,
+     "rr": 0.0
+    },
+    {
+     "q": "nagpur",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "26 january",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "mooknayak",
+     "hit": 1.0,
+     "rr": 0.5
+    },
+    {
+     "q": "drafting committee",
+     "hit": 1.0,
+     "rr": 1.0
+    }
+   ]
+  },
+  "hybrid": {
+   "hit@5": 0.875,
+   "mrr": 0.656,
+   "per_query": [
+    {
+     "q": "constitutional morality",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "annihilation of caste",
+     "hit": 1.0,
+     "rr": 0.25
+    },
+    {
+     "q": "constitution adopted",
+     "hit": 1.0,
+     "rr": 0.5
+    },
+    {
+     "q": "poona pact",
+     "hit": 0.0,
+     "rr": 0.0
+    },
+    {
+     "q": "nagpur",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "26 january",
+     "hit": 1.0,
+     "rr": 1.0
+    },
+    {
+     "q": "mooknayak",
+     "hit": 1.0,
+     "rr": 0.5
+    },
+    {
+     "q": "drafting committee",
+     "hit": 1.0,
+     "rr": 1.0
+    }
+   ]
+  }
+ }
+}

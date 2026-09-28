@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Heritage Kiosk
+Comment=Full-screen heritage archive kiosk UI (local)
+Exec=/home/pi/archive/src/kiosk-agent/start-kiosk.sh
+X-GNOME-Autostart-enabled=true

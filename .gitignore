@@ -1,0 +1,25 @@
+# secrets and local config
+.env
+*.env
+!.env.example
+device.env
+*.pem
+*.key
+secrets/
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# node
+node_modules/
+# content that must never be committed without a rights record
+masters/
+*.tif
+*.tiff
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

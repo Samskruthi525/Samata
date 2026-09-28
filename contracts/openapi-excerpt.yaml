@@ -1,0 +1,148 @@
+# OpenAPI excerpt for heritage-archive-api (📐 specified, not implemented in this repository).
+# Full spec lives in heritage-archive-api/openapi.yaml once the service exists.
+openapi: 3.1.0
+info:
+  title: Heritage Archive API
+  version: 0.1.0-draft
+  description: >
+    Public read routes are rights-filtered server-side. Device routes need a per-kiosk token.
+    Admin routes need an MFA-backed staff identity and are unreachable with device tokens.
+servers:
+  - url: https://api.example.invalid
+security:
+  - deviceToken: []
+paths:
+  /v1/health:
+    get:
+      summary: API availability and compatible manifest version (no secrets)
+      security: []
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status, api_version, manifest_version]
+                properties:
+                  status: {type: string, enum: [ok, degraded]}
+                  api_version: {type: string}
+                  manifest_version: {type: integer}
+  /v1/items/{id}:
+    get:
+      summary: Metadata, rights label, safe asset URLs and source reference
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        "200": {description: Item visible to the public role}
+        "404": {description: Unknown OR not permitted (indistinguishable by design)}
+  /v1/items/{id}/pages/{index}:
+    get:
+      summary: Access image, OCR status, verified text and printed page for one page
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+        - {name: index, in: path, required: true, schema: {type: integer, minimum: 0}, description: "0-based pdf_page_index (NOT the printed page)"}
+      responses:
+        "200":
+          description: Page
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [item_id, pdf_page_index, printed_page, access_url, text_status]
+                properties:
+                  item_id: {type: string}
+                  pdf_page_index: {type: integer}
+                  printed_page: {type: [string, "null"]}
+                  access_url: {type: string, description: "Short-lived signed URL"}
+                  text_status: {type: string, enum: [reviewed, unreviewed_ocr, none]}
+                  passages:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: {type: string}
+                        text: {type: string}
+                        reviewed: {type: boolean}
+  /v1/search:
+    post:
+      summary: Hybrid (lexical + vector + fusion) search over the permitted index
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [query]
+              properties:
+                query: {type: string, maxLength: 500}
+                language: {type: string}
+                kind: {type: string, enum: [writing, constitutional, manuscript_photo, media]}
+                limit: {type: integer, minimum: 1, maximum: 50, default: 10}
+      responses:
+        "200": {description: Ranked hits with passage IDs and page/time targets}
+  /v1/ask:
+    post:
+      summary: Source-grounded answer, or an explicit abstention
+      description: Query text is not stored. See contracts/ask-response.schema.json.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [query]
+              properties:
+                query: {type: string, maxLength: 500}
+                language: {type: string, enum: [en, hi, mr, te]}
+                device_id: {type: string}
+      responses:
+        "200":
+          description: answered | not_verified | rejected
+          content:
+            application/json:
+              schema: {$ref: "ask-response.schema.json"}
+        "429": {description: Rate limit or daily cap reached; the kiosk shows "unavailable"}
+  /v1/offline-manifest:
+    get:
+      summary: Signed, versioned, expiring offline manifest for this device
+      responses:
+        "200":
+          description: Manifest
+          content:
+            application/json:
+              schema: {$ref: "offline-manifest.schema.json"}
+  /v1/admin/items/{id}/publish:
+    post:
+      summary: Publish an approved_1 item (approver must differ from reviewer 1)
+      security:
+        - staffOidc: [curator.publish]
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        "200": {description: Published; index updated; manifest version bumped if cacheable}
+        "409": {description: Not in approved_1, rights gate closed, or same person as reviewer 1}
+  /v1/admin/items/{id}/withdraw:
+    post:
+      summary: Withdraw an item (takedown) from listing, search, AI context, reading lists and caches
+      security:
+        - staffOidc: [curator.withdraw]
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [reason]
+              properties:
+                reason: {type: string}
+      responses:
+        "200": {description: Withdrawn; manifest version bumped}
+components:
+  securitySchemes:
+    deviceToken: {type: http, scheme: bearer, description: Per-kiosk scoped credential}
+    staffOidc:
+      type: openIdConnect
+      openIdConnectUrl: https://idp.example.invalid/.well-known/openid-configuration
