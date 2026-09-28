@@ -1,7 +1,0 @@
-# Documentation build + reference tests (Python >= 3.10)
-matplotlib>=3.8
-numpy>=1.26
-pytest>=8
-jsonschema>=4.21        # contract tests (skipped if absent)
-# optional: screenshots of the prototype
-# playwright>=1.45      # then: python -m playwright install chromium
